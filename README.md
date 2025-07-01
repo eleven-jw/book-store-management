@@ -67,3 +67,19 @@ export default tseslint.config([
   },
 ])
 ```
+
+# Features
+1 Login\Register
+2 Main page:
+    SearchBar 
+    Menu
+
+3 Book List
+    Book List(name author brief-introduction price stock )
+    Add Book
+    Remove Book
+    Edit Book
+4.order List
+    order List (order No order-time userName payment state)
+    refund
+    edit

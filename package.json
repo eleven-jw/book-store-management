@@ -12,9 +12,13 @@
     "preview": "vite preview"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["eslint --fix", "prettier --write"]
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
+    "antd": "^5.26.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
