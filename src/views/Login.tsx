@@ -1,6 +1,6 @@
 import { Button, Card, Checkbox, Flex, Form, Input, message, type FormProps } from 'antd';
 import styles from '../assets/styles/login.module.css';
-import { login } from './api/index';
+import { login } from './api/loginApi';
 import { useNavigate, useLocation } from 'react-router-dom';
 import type { FieldType } from './types';
 import { useEffect, useState } from 'react';
